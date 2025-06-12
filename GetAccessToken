@@ -1,5 +1,3 @@
-        public async Task<string> GetAccessToken(string clientId, string clientSecret)
-        {
             string accessToken = string.Empty;
             using (var client = new HttpClient())
             {
@@ -22,4 +20,3 @@
                 }
             }
             return accessToken;
-        }
